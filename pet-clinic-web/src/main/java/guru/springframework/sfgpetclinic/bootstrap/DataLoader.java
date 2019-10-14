@@ -1,6 +1,7 @@
 package guru.springframework.sfgpetclinic.bootstrap;
 
 import guru.springframework.sfgpetclinic.model.Owner;
+import guru.springframework.sfgpetclinic.model.Vet;
 import guru.springframework.sfgpetclinic.services.OwnerService;
 import guru.springframework.sfgpetclinic.services.VetService;
 import org.springframework.boot.CommandLineRunner;
@@ -40,6 +41,12 @@ public class DataLoader implements CommandLineRunner {
         owner3.setLastName("Stankov");
 
         ownerService.save(owner3);
+
+        Vet vet1 = new Vet();
+        vet1.setId(8L);
+        vet1.setFirstName("Lea");
+        vet1.setLastName("Ristovska");
+        vetService.save(vet1);
 
     }
 }
