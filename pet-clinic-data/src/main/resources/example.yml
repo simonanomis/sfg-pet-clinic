@@ -1,0 +1,38 @@
+# this is a comment
+
+name: Simona
+names:
+  - Simona
+  - Filip
+  - Ina
+  - Nadica
+  - Georgina
+
+pound_sign: "#"
+
+book:
+  author: Simona Stevkovska
+  publisher: Nadica Stevkovska
+
+#boolean
+truth: yes
+
+another_truth: True
+
+more_true: true
+
+false: no #No, false, FALSE
+
+string_val: "This is a quote"
+
+colon_string: "my courses: one 2 three"
+
+#multiple line chars
+include_new_lines: |
+  hey hey hey
+  hey hey hey
+  hey hey hey
+
+ignore_new_lines: >
+  bye bye bye
+  bye bye bye
